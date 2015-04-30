@@ -1,0 +1,13 @@
+Scores from p3 for Sodhi, Manvinder Yang, Andy 
+
+Addresses used: mssodhi@ucdavis.edu achyang@ucdavis.edu 
+
+BSTX.cpp operation testing:
+Height: OK
+Sum: OK
+Ancestor found: OK
+Ancestor not found: OK
+Correct highest full not found.
+Correct deepest full not found.
+
+BSTX.cpp score: 6
