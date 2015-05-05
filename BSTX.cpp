@@ -315,17 +315,17 @@ template <class Comparable>
 int BinarySearchTreeX<Comparable>::height(BinaryNodeX<Comparable> *t) const
 {
   int leftHeight, rightHeight;
-  if(t==NULL) 
-    return 0;
+  if (t==NULL) 
+     return 0;
   
   leftHeight = height(t->left) + 1;
   rightHeight = height(t->right) + 1;
   
  if (leftHeight > rightHeight) 
-  return leftHeight;
+    return leftHeight;
   else 
-  return rightHeight;
-  
+    return rightHeight;
+  // DONE 
   // to be written by student
 }
 
@@ -342,7 +342,9 @@ int BinarySearchTreeX<Comparable>::sum(BinaryNodeX<Comparable> *t) const
   if (!t) 
     return 0; //No Tree.
   else
-    return sum(t->left) + sum(t->right) + t->element; // to be written by student
+    return sum(t->left) + sum(t->right) + t->element; 
+  // DONE
+  // to be written by student
 }
 
 template <class Comparable>
@@ -350,13 +352,14 @@ bool BinarySearchTreeX<Comparable>::isAncestor(const Comparable & x,
   const Comparable & possibleAncestor) const
 
 { 
-  //TODO:Still need to fix this code
-   
-  if(x < possibleAncestor)  
-    return true;
+  // TODO: Still need to fix this code
+  // TODO: Return true if possibleAncestor is the ancestor of x. 
+  if (x < possibleAncestor)  
+     return true;
   else
-    return false;  // to be written by student
-} // return true if possibleAncestor is the ancestor of x.
+     return false;  
+  // to be written by student
+} 
 
 
 template <class Comparable>
