@@ -7,7 +7,7 @@ Height: OK
 Sum: OK
 Ancestor found: OK
 Ancestor not found: OK
-Correct highest full not found.
+Highest Full: OK
 Correct deepest full not found.
 
-BSTX.cpp score: 6
+BSTX.cpp score: 8
